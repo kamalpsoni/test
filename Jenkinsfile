@@ -6,7 +6,7 @@ pipeline {
         sh 'kubectl get node'
       }
     }
-    tage('Helm command') {
+    stage('Helm command') {
       steps {
         sh 'helm list'
       }
