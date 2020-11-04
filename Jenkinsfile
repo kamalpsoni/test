@@ -6,6 +6,11 @@ pipeline {
         sh 'kubectl get node'
       }
     }
+    tage('Helm command') {
+      steps {
+        sh 'helm list'
+      }
+    }
 
   }
 }
