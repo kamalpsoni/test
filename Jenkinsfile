@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Git checkout') {
       steps {
-        sh 'kubectl version'
+        sh 'kubectl config get-contexts'
       }
     }
 
