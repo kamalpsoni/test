@@ -1,15 +1,11 @@
-pipeline{
-    agent any
-	
-	stages{
-	    
-	    stage('Git checkout'){ 
-            steps{
-			          sh 'kubectl get node'
-            }                                   
-        
-        }
-     }
+pipeline {
+  agent any
+  stages {
+    stage('Git checkout') {
+      steps {
+        sh 'kubectl version'
+      }
+    }
+
+  }
 }
-  
-  
