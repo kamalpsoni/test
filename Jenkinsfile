@@ -3,12 +3,12 @@ pipeline {
   stages {
     stage('Git checkout testing1234') {
       steps {
-        sh 'kubectl get node'
+        echo "test1"
       }
     }
     stage('Helm command') {
       steps {
-        sh 'helm list'
+        echo "test2"
       }
     }
 
