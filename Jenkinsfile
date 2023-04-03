@@ -4,7 +4,7 @@ pipeline {
        label "ubuntu"
     }
   stages {
-    stage('Git checkout testing12345') {
+    stage('Git checkout testing123456') {
       steps {
         echo "test1"
       }
