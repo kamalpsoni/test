@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Git checkout') {
+    stage('Git checkout testing') {
       steps {
         sh 'kubectl get node'
       }
