@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Git checkout testing123') {
+    stage('Git checkout testing1234') {
       steps {
         sh 'kubectl get node'
       }
